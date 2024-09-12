@@ -12,6 +12,6 @@ function sendNotification(email) {
     return userName + ' sent you an email from ' + domainName; 
 }
 
-const notification = sendNotification('ahmeadashraful@gmail.com');
+const notification = sendNotification('ahmeadash@rafulgmail.com');
 console.log(notification);
 

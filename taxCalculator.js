@@ -9,7 +9,7 @@ function calculateTax(income, expenses) {
     return TaxCost;
 }
 
-const tax = calculateTax(13000, 3000);
+const tax = calculateTax(5000, 15000);
 console.log(tax);
 
 
