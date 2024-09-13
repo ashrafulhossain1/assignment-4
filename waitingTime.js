@@ -19,7 +19,6 @@ function waitingTime(waitingTimes, serialNumber) {
 
     const finalWaitingTime = (beforeIsrat - interviewed) * averageWaitingTime;
     return finalWaitingTime;
-
 }
 
 const delayTime = waitingTime([7, 8, 3, 4, 5], "9");
